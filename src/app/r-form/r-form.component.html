@@ -1,0 +1,11 @@
+
+<form [formGroup]="regForm"  (ngSubmit)="Submit()">
+    UserName:
+    <input type="text"class="form-control w-50 m-3" formControlName="uname">
+
+  
+    Email:
+    <input type="text"class="form-control w-50 m-3" formControlName="email">
+
+    <button class="btn btn-primary">submit</button>
+</form>

@@ -1,0 +1,48 @@
+<form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" ngModel minlength="2" maxlength="20"  required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"   ngModel required email>
+  </div>
+  <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" ngModel  required></textarea>
+  </div><br><br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+ </form> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>{{test}}</h3>
+
